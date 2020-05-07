@@ -1,0 +1,19 @@
+home:
+   path: /
+   controller: App\Controller\ProduitController::produits
+
+addProduit:
+   path: /ajoutProduit
+   controller: App\Controller\ProduitController::addProduit
+
+produit:
+  path: /produit/{id}
+  controller: App\Controller\ProduitController::produit
+
+addPanier:
+  path: /panier/ajoutPanier/{id}
+  controller: App\Controller\PanierController::addPanier
+
+panier:
+  path: /panier
+  controller: App\Controller\PanierController::panier
